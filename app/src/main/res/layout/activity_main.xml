@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="671dp"
+        android:orientation="vertical"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20sp"
+            android:text="@string/titulo_txt"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_nombre" />
+
+        <EditText
+            android:id="@+id/editNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/txtApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_apellido" />
+
+        <EditText
+            android:id="@+id/editApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtPais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_pais" />
+
+        <Button
+            android:id="@+id/btnPais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="onPaises"
+            android:text="@string/btn_pais" />
+
+        <TextView
+            android:id="@+id/txtDomicilio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_domicilio" />
+
+        <EditText
+            android:id="@+id/editDomicilio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_empresa" />
+
+        <Button
+            android:id="@+id/btnEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:onClick="onEmpresas"
+            android:text="@string/btn_empresa" />
+
+        <TextView
+            android:id="@+id/txtSueldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_sueldo" />
+
+        <EditText
+            android:id="@+id/editSueldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutContenido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_aceptar" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_cancelar" />
+    </LinearLayout>
+</LinearLayout>

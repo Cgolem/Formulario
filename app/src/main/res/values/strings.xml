@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Formulario</string>
+
+    <string name="titulo_txt">Formulario de empleado</string>
+    <string name="titulo_nombre">Ingresa un nombre</string>
+    <string name="txt_apellido">Apellido</string>
+    <string name="txt_domicilio">Domicilio</string>
+    <string name="txt_pais">Pais</string>
+    <string name="txt_empresa">Empresa</string>
+    <string name="txt_sueldo">Sueldo</string>
+
+    <!-- Botones -->
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_pais">Seleccione pais</string>
+    <string name="btn_empresa">Seleccione empresa</string>
+
+
+    <!-- Actividad Pais -->
+    <string name="txt_titulo">Lista de paises</string>
+
+    <!-- Actividad Empresa -->
+    <string name="txt_titulo_empresa">Lista de empresas</string>
+</resources>
