@@ -21,4 +21,6 @@
 
     <!-- Actividad Empresa -->
     <string name="txt_titulo_empresa">Lista de empresas</string>
+    <string name="empresa_x">Empresa X</string>
+    <string name="contenido">contenido</string>
 </resources>

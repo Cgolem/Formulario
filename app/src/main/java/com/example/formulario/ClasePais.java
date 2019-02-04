@@ -1,6 +1,8 @@
 package com.example.formulario;
 
-public class ClasePais {
+import java.io.Serializable;
+
+public class ClasePais implements Serializable {
     int id;
     String detalle;
 
